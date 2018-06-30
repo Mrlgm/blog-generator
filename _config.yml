@@ -80,3 +80,16 @@ theme: hexo-theme-next
 deploy:
   type: git
   repo: git@github.com:Mrlgm/Mrlgm.github.io.git
+
+# hexo-renderer-marked
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: false
+  modifyAnchors: ''
+  autolink: true
+
